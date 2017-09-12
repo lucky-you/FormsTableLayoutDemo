@@ -8,7 +8,6 @@ import com.cnsunrun.formstablelayoutdemo.R;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 import win.smartown.android.library.tableLayout.TableAdapter;
 import win.smartown.android.library.tableLayout.TableLayout;
@@ -87,10 +86,6 @@ public class MainActivity extends AppCompatActivity {
                 return contentList.get(position).toArray();
             }
         });
-    }
-
-    private String newRandomNumber() {
-        return (new Random().nextInt(50) + 50) + "";
     }
 
     public static class Content {
