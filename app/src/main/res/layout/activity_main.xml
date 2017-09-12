@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<win.smartown.android.library.tableLayout.FreeScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <win.smartown.android.library.tableLayout.TableLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        app:backgroundColorSelected="@color/colorAccent"
+        app:tableColumnPadding="32dp"
+        app:tableDividerColor="#ddd"
+        app:tableDividerSize="1px"
+        app:tableRowHeight="48dp"
+        app:tableTextColor="#333"
+        app:tableTextColorSelected="#fff"
+        app:tableTextSize="14dp" />
+
+
+</win.smartown.android.library.tableLayout.FreeScrollView>
